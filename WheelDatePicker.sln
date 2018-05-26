@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelDatePicker", "WheelDatePicker\WheelDatePicker.csproj", "{261515AB-97E1-4701-AE5F-7B1B40A6204F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{261515AB-97E1-4701-AE5F-7B1B40A6204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261515AB-97E1-4701-AE5F-7B1B40A6204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261515AB-97E1-4701-AE5F-7B1B40A6204F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1D2322-BD3A-4AFB-8DAE-5271D1A6F0C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
