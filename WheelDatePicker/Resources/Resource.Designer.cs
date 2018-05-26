@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("WheelDatePicker.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Naxam.Controls.Resource", IsApplication=false)]
 
-namespace WheelDatePicker
+namespace Naxam.Controls
 {
 	
 	

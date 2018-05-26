@@ -12,7 +12,6 @@ using Android.Support.Constraints;
 using Android.Views;
 using Android.Widget;
 using Com.Aigestudio.Wheelpicker;
-using WheelDatePicker;
 
 namespace Naxam.Controls
 {
@@ -25,15 +24,15 @@ namespace Naxam.Controls
         private const int MIN_MONTH = 1;
         private const int MAX_MONTH = 12;
 
-        View background;
-        WheelPicker dayPicker;
-        WheelPicker monthPicker;
-        WheelPicker yearPicker;
-        TextView btnDone;
+        private View background;
+        private WheelPicker dayPicker;
+        private WheelPicker monthPicker;
+        private WheelPicker yearPicker;
+        private TextView btnDone;
 
-        List<int> Years;
-        List<string> Months;
-        List<int> Days;
+        private List<int> Years;
+        private List<string> Months;
+        private List<int> Days;
 
         public WheelDatePicker(Context context) : base(context)
         {

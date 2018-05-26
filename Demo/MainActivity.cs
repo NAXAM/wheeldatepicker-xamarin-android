@@ -3,6 +3,8 @@ using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
 using System;
+using Naxam.Controls;
+
 namespace Demo
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
@@ -20,7 +22,7 @@ namespace Demo
 
         private void BtnPick_Click(object sender, System.EventArgs e)
         {
-            Naxam.Controls.WheelDatePicker picker = new Naxam.Controls.WheelDatePicker(this);
+            WheelDatePicker picker = new WheelDatePicker(this);
             picker.SelectedDay = 25;
             picker.SelectedMonth = 10;
             picker.SelectedYear = 1995;
