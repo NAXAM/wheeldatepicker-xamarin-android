@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.WheelDatePicker.Droid</id>
+        <version>1.0.0.0</version>
+        <authors>NAXAM</authors>
+        <owners>NAXAM COMPANY LIMITED</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - WheelDatePicker Android</title>
+        <summary>WheelDatePicker Android 1.0.0</summary>
+        <description>Naxam Controls Library - WheelDatePicker Android</description>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951?s=200</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/wheeldatepicker-xamarin-android</projectUrl>
+        <copyright>Copyright (c) 2017-present NAXAM</copyright>
+        <tags>xamarin, Xamarin.Android, WheelDatePicker</tags>
+    </metadata>
+    <files>
+        <file src="WheelDatePicker/bin/Release/Naxam.Controls.dll" target="lib/MonoAndroid10/Naxam.Controls.dll" />
+    </files>
+</package>
