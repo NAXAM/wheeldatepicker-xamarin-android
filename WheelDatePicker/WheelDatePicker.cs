@@ -91,7 +91,7 @@ namespace Naxam.Controls
                 Months.Add(month.ToString("MMMM"));
             }
             Days = new List<int>();
-            for (int i = MIN_DAY; i <= 31; i++)
+            for (int i = MIN_DAY; i <= DateTime.DaysInMonth(MIN_YEAR, MIN_MONTH); i++)
             {
                 Days.Add(i);
             }
@@ -104,13 +104,11 @@ namespace Naxam.Controls
         private void YearPicker_ItemSelected1(object sender, Com.Aigestudio.Wheelpicker.WheelPicker.ItemSelectedEventArgs e)
         {
             SelectedYear = e.P2 + MIN_YEAR;
-            HandleDayOfMonth(e.P2 + MIN_YEAR, SelectedMonth);
         }
 
         private void MonthPicker_ItemSelected1(object sender, Com.Aigestudio.Wheelpicker.WheelPicker.ItemSelectedEventArgs e)
         {
             SelectedMonth = e.P2 + MIN_MONTH;
-            HandleDayOfMonth(SelectedYear, e.P2 + MIN_MONTH);
         }
 
         private void DayPicker_ItemSelected1(object sender, Com.Aigestudio.Wheelpicker.WheelPicker.ItemSelectedEventArgs e)
@@ -162,6 +160,7 @@ namespace Naxam.Controls
             {
                 if (monthPicker.Data == null || monthPicker.Data.Count == 0 || monthPicker.Data.Count <= (value - MIN_MONTH)) return;
                 monthPicker.SelectedItemPosition = value - MIN_MONTH;
+                HandleDayOfMonth(SelectedYear, SelectedMonth);
             }
         }
 
@@ -172,6 +171,7 @@ namespace Naxam.Controls
             {
                 if (yearPicker.Data == null || yearPicker.Data.Count == 0 || yearPicker.Data.Count <= (value - MIN_YEAR)) return;
                 yearPicker.SelectedItemPosition = value - MIN_YEAR;
+                HandleDayOfMonth(SelectedYear, SelectedMonth);
             }
         }
     }
